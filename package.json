@@ -1,0 +1,56 @@
+{
+
+  "name": "zhihu-api",
+
+  "version": "1.0.0",
+
+  "description": "仿知乎 restful api",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "start": " cross-env NODE_ENV=production  node app",
+
+    "dev": "nodemon app"
+
+  },
+
+  "author": "ssl",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "jsonwebtoken": "^9.0.2",
+
+    "koa": "^2.15.3",
+
+    "koa-body": "^4.1.0",
+
+    "koa-json-error": "^3.1.2",
+
+    "koa-jwt": "^4.0.4",
+
+    "koa-parameter": "^3.0.1",
+
+    "koa-router": "^13.0.1",
+
+    "koa-static": "^5.0.0",
+
+    "mongoose": "^8.6.2"
+
+  },
+
+  "devDependencies": {
+
+    "cross-env": "^7.0.3",
+
+    "nodemon": "^3.1.4"
+
+  }
+
+}
+
